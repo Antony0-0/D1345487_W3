@@ -1,0 +1,7 @@
+decial = int(input("輸⼊⼀個⼗進制數字："))
+binary = format(decial, 'b')
+octal = format(decial, 'o')
+hexadecimal = format(decial, 'x')
+print("⼆進制：", binary)
+print("八進制：", octal)
+print("十六進制：", hexadecimal)
